@@ -5,6 +5,7 @@ pipeline {
             agent any
             steps {
                 echo 'nom-de-la-branche'
+                echo 'Badabi badaba webhook ist da'
             }
         }
         stage('Build') {
