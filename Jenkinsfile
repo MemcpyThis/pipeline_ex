@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'nom-de-la-branche'
                 echo 'Badabi badaba webhook ist da'
+                echo 'test123'
             }
         }
         stage('Build') {
